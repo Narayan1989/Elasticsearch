@@ -4,14 +4,14 @@ a) A short description of your solution describing your choices and why did you 
 I have used cloudformation to provision the elastic cluster with nodes
 
 b) Resources, if any, that you consulted to arrive at the final solution
-IAM Role :
+IAM Role policy
 c) How long did you spend on the exercise, and if possible, short feedback about the exercise
 almorst 3 hours
 3. Must use AWS free tier, however, if you’re using any additional services, please mention them
 in the instructions
 Cloudformtion IAM 
 4. ElasticSearch access and communication must be secure
-Yes
+Yes using IAM policy
 ## Bonus if you extend your code to create a cluster of 3 ElasticSearch nodes
 Some answers we are looking:
 1. What did you choose to automate the provisioning and bootstrapping of the instance? Why?
@@ -21,7 +21,6 @@ Using IAM and policy
 3. How would you monitor this instance? What metrics would you monitor?
 Kibana
 4. Could you extend your solution to launch a secure cluster of ElasticSearch nodes? What
-
 would need to change to support this use case?
 5. Could you extend your solution to replace a running ElasticSearch instance with little or no
 downtime? How?
